@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    background-color: #000000;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.logo-nombre {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+/*slider*/
+#slider {
+    width: 80%;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 5px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#slider-contenedor {
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+}
+
+#imagen3 {
+    background-image: url(../image/img-slide3.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+#imagen2 {
+    background-image: url(../image/img-slide2.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+#imagen1 {
+    background-image: url(../image/img-slide1.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Cards*/
+#contenedor {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Footer*/
+footer {
+    padding: 50px;
+    background-color: #bd6d6d;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
+
+.footer-content h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons {
+    list-style: none;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.news-form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.news-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.news-button {
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15;
+    position: absolute;
+    top: 1px;
+    margin-left: 350px;
+    height: 90%;
+}
+
+.footer-content {
+    max-width: 77.5rem;
+    margin: auto;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Contacto*/
+#nombre,
+#mail,
+#number,
+#multi {
+    display: block;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+fieldset {
+    padding-top: 15px;
+    margin-bottom: 390px;
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    font-size: 20px;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 6px;
+}
+
+.form button {
+    padding: 6px;
+    padding-top: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/*Ubicaciones*/
+.maps {
+    align-items: center;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sobre nosotros*/
+
+
+
+
+/*menu*/
