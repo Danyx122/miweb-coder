@@ -48,42 +48,72 @@
       </nav>
     </header>
 
-    <section>
-      <div>
+    <main>
+      <div class="container mt-5">
         <h2>Contactanos</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          sequi reprehenderit reiciendis aperiam. Sed inventore hic odit?
-          Itaque, doloremque error!
+          sequi reprehenderit reiciendis aperiam. Sed inventore hic odit? Itaque
         </p>
+
+        <div>
+          <form action="enviar.php" method="get" class="row g-3">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Ingrese su nombre"
+                required
+              />
+            </div>
+            <div>
+              <label for="Apellido" class="form-label">Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Apellido"
+                placeholder="Ingrese su apellido"
+                required
+              />
+            </div>
+            <div class="col-md-8">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                type="email"
+                class="form-control"
+                id="mail"
+                placeholder="Ingresa tu e-mail"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="telefono" class="form-label">Telefono</label>
+              <input
+                type="text"
+                class="form-control"
+                id="number"
+                placeholder="+52 (811) 654-987"
+              />
+            </div>
+            <div class="col-md-12">
+              <label for="comments" class="form-label">Comentarios</label>
+              <textarea
+                class="form-control"
+                id="multi"
+                rows="3"
+                placeholder="Deja tus comentarios"
+                required
+              ></textarea>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div>
-        <form action="enviar.php" method="get" class="form">
-          <fieldset>
-            <legend>Ingresa tus datos</legend>
-            <label for="nombre">Nombre</label>
-            <input
-              type="text"
-              id="nombre"
-              placeholder="Ingrese su nombre"
-              required
-            />
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="mail"
-              required
-              placeholder="Ingresa tu email"
-            />
-            <label for="telefono">Telefono</label>
-            <input type="text" id="number" placeholder="Ingresa tu numero" />
-            <label for="multi">Deje su mensaje</label>
-            <textarea name="multi" id="multi" cols="30" rows="5"></textarea>
-            <button type="submit">Enviar</button>
-          </fieldset>
-        </form>
-      </div>
-    </section>
+    </main>
 
     <footer>
       <div class="container">

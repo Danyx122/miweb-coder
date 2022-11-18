@@ -157,13 +157,6 @@ footer {
 }
 
 /*Contacto*/
-#nombre,
-#mail,
-#number,
-#multi {
-  display: block;
-}
-
 h2 {
   font-size: 50px;
   text-align: center;
@@ -174,37 +167,14 @@ p {
   font-size: 20px;
 }
 
-fieldset {
-  padding-top: 15px;
-  margin-bottom: 390px;
-  margin-top: 80px;
-  width: 400px;
-  height: 500px;
-  font-size: 20px;
-}
-
-.form {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+.row.g-3 {
+  width: 700px;
+  padding-top: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form input {
-  width: 90%;
-  height: 30px;
-  margin: 6px;
-}
-
-.form button {
-  padding: 6px;
-  padding-top: 6px;
-  cursor: pointer;
-  margin-top: 10px;
-  font-size: 15px;
+  margin: auto;
+  padding-bottom: 1em;
 }
 
 /*Ubicaciones*/
