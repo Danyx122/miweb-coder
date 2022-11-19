@@ -65,6 +65,7 @@ ul {
 #slider {
   margin-top: 2%;
 }
+
 /*Cards*/
 #contenedor {
   width: 100%;
@@ -154,18 +155,16 @@ footer {
 
 .contactohtml {
   background-color: black;
+  margin: auto;
 }
 
-h2 {
+.cont {
+  color: white;
   text-align: center;
-  font-size: x-large;
-  color: #fff;
 }
 
-p {
-  text-align: Center;
+p.cont {
   font-size: 20px;
-  color: #fff;
   line-height: 5px;
 }
 
@@ -193,5 +192,32 @@ p {
 }
 
 /* Sobre nosotros*/
+.allnosotros {
+  background-color: black;
+  margin: auto;
+}
+.h2-nosotros,
+.h3-nosotros {
+  color: #bd6d6d;
+  text-align: center;
+}
+.p-nosotros {
+  color: #fff;
+  text-align: center;
+  margin-inline: 20%;
+  font-size: large;
+}
+#acerca-de-nosotros {
+  margin-block: 5%;
+}
+.comentario-button {
+  text-align: center;
+  margin-top: 3%;
+}
 
+.iimg3,
+.iimg2,
+.iimg1 {
+  text-align: center;
+}
 /*menu*/
