@@ -10,7 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   min-height: 100px;
-  background-color: #000000;
+  background-color: #bd6d6d;
   align-items: center;
   padding: 10px;
 }
@@ -27,14 +27,14 @@ header {
 }
 
 .logo-nombre {
-  color: rgb(255, 255, 255);
+  color: rgb(8, 8, 8);
   font-size: 40px;
   font-weight: 600;
 }
 
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 nav a {
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 700px) {
@@ -59,21 +59,12 @@ nav a:hover {
 ul {
   list-style: none;
   display: flex;
-  font-size: 20px;
+  font-size: 25px;
 }
-
-/*slider*/
+/*Slider*/
 #slider {
-  width: 90%;
-  height: 500px;
-  margin: auto;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  border: 5px solid white;
-  border-radius: 15px;
-  overflow: hidden;
+  margin-top: 2%;
 }
-
 /*Cards*/
 #contenedor {
   width: 100%;
@@ -157,14 +148,25 @@ footer {
 }
 
 /*Contacto*/
+.mt-5 {
+  margin-bottom: 5%;
+}
+
+.contactohtml {
+  background-color: black;
+}
+
 h2 {
-  font-size: 50px;
   text-align: center;
+  font-size: x-large;
+  color: #fff;
 }
 
 p {
-  text-align: center;
+  text-align: Center;
   font-size: 20px;
+  color: #fff;
+  line-height: 5px;
 }
 
 .row.g-3 {
@@ -175,6 +177,8 @@ p {
   display: flex;
   margin: auto;
   padding-bottom: 1em;
+  font-size: x-large;
+  color: #fff;
 }
 
 /*Ubicaciones*/
